@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassy Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">Jawad Ahmad</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+            
+    <section class="hero-section" id="home">
+        <div class="content">
+            <div class="hero-content">
+                <h1>Creating Modern Web Experiences</h1>
+                <p>I’m Jawad Ahmad, a passionate web developer specializing in creating modern, responsive, and user-friendly websites using HTML, CSS, and JavaScript.</p>
+            </div>
+    
+            <div class="hero-image">
+                <img src="/jawad2-removebg-preview3.png" alt="Jawad Ahmad">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-me" id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-box">
+                    <p>
+                        Hi, I’m Jawad Ahmad, a passionate web developer with a deep love for crafting modern, functional, and aesthetically pleasing web experiences. My journey in web development began with a curiosity to understand how websites work, which quickly turned into a passion for building them.
+                    </p>
+                </div>
+                <div class="about-box">
+                    <p>
+                        Over the years, I’ve honed my skills in HTML, CSS, JavaScript, and a range of web technologies to create responsive, user-friendly websites. I take pride in delivering exceptional digital products that solve real-world problems while ensuring an engaging user experience.
+                    </p>
+                </div>
+                <div class="about-box">
+                    <p>
+                        Recently, I’ve worked on developing a fully functional <strong>e-commerce platform</strong>, enabling seamless online shopping experiences. Additionally, I’ve explored <strong>API handling projects</strong>, where I’ve integrated third-party services and optimized data flows to enhance site functionality.
+                    </p>
+                </div>
+                <div class="about-box">
+                    <p>
+                        Whether it's designing dynamic interfaces, building secure backends, or creating API integrations, I’m constantly pushing my boundaries to develop innovative web solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-section" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-details">
+                <div class="current-education">
+                    <h3>BS Computer Science (5th Semester)</h3>
+                    <p><strong>CGPA:</strong> 3.6</p>
+                    <p>
+                        I’m currently pursuing my Bachelor's degree in Computer Science. I’ve completed 5 semesters so far, maintaining a CGPA of 3.6. I’m passionate about learning new technologies and developing innovative solutions through my education.
+                    </p>
+                </div>
+                <div class="previous-education">
+                    <h3>FSC Pre-Engineering</h3>
+                    <p><strong>Marks:</strong> 1075/1100 (95%)</p>
+                    <p>
+                        I completed my FSC Pre-Engineering with excellent results, scoring 1075 out of 1100. This provided me with a solid foundation in mathematics and science, which has greatly contributed to my understanding of computer science.
+                    </p>
+                    <h3>Matriculation</h3>
+                    <p><strong>Marks:</strong> 1077/1100</p>
+                    <p>
+                        In my matriculation, I secured 1077 out of 1100 marks, reflecting my dedication and commitment to my studies from an early age.
+                    </p>
+                </div>
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies & Interests</h3>
+                <p>I enjoy reading books, traveling, and watching movies during my free time. These hobbies help me unwind and broaden my perspectives.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <p>
+                    I specialize in creating modern and responsive user interfaces using technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>Tailwind CSS</strong>, and <strong>JavaScript</strong>. My passion for frontend development allows me to transform ideas into dynamic, interactive, and visually appealing websites.
+                </p>
+    
+                <div class="skills-bars">
+                    <div class="skill">
+                        <h3>HTML</h3>
+                        <div class="progress-bar">
+                            <div class="progress html">90%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>CSS</h3>
+                        <div class="progress-bar">
+                            <div class="progress css">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <h3>JavaScript</h3>
+                        <div class="progress-bar">
+                            <div class="progress js">40%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to get in touch, feel free to fill out the form below, and I'll get back to you as soon as possible.</p>
+    
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://www.facebook.com/your-profile" target="_blank" class="social-icon">Facebook</a>
+            <a href="https://www.instagram.com/your-profile" target="_blank" class="social-icon">Instagram</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="social-icon">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="social-icon">GitHub</a>
+        </div>
+        <div class="footer-con">
+            <p>&copy; 2024 Jawad Ahmad. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    
+    
+</body>
+</html>
